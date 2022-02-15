@@ -1,0 +1,645 @@
+06-Jun-2019 03:52:47.866 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jun-2019 03:52:47.887 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 03:52:48.379 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 03:52:48.772 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jun-2019 03:52:54.386 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 03:52:54.726 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 03:52:54.736 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 03:52:54.746 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 03:52:54.746 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 14:11:57.691 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+06-Jun-2019 14:11:57.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+06-Jun-2019 14:11:57.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+06-Jun-2019 14:11:57.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+06-Jun-2019 14:11:57.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jun-2019 14:11:57.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jun-2019 14:11:57.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jun-2019 14:11:57.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Amazon Corretto\jdk1.8.0_212\jre
+06-Jun-2019 14:11:57.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_212-b04
+06-Jun-2019 14:11:57.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-Jun-2019 14:11:57.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 14:11:57.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 14:11:57.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\logging.properties
+06-Jun-2019 14:11:57.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jun-2019 14:11:57.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Anet-HP
+06-Jun-2019 14:11:57.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jun-2019 14:11:57.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jun-2019 14:11:57.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Jun-2019 14:11:57.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 14:11:57.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 14:11:57.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\temp
+06-Jun-2019 14:11:57.779 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+06-Jun-2019 14:11:57.779 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-Jun-2019 14:11:57.779 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Jun-2019 14:11:57.803 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+06-Jun-2019 14:11:58.065 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 14:11:58.595 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2019 14:11:58.618 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 14:11:58.622 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2019 14:11:58.623 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1692 ms
+06-Jun-2019 14:11:58.732 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jun-2019 14:11:58.732 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+06-Jun-2019 14:11:58.747 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+06-Jun-2019 14:11:58.845 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6074ecee]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\target\ear_zs-0.0.1] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 14:11:58.847 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 14:11:58.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [102] ms
+06-Jun-2019 14:11:58.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml]
+06-Jun-2019 14:11:58.878 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Spring4MVCHelloWorldRestServiceDemo]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6546696e]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Hp\Downloads\Spring4MVCHelloWorldRestServiceDemo\target\Spring4MVCHelloWorldRestServiceDemo] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 14:11:58.879 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Spring4MVCHelloWorldRestServiceDemo]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 14:11:58.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml] has finished in [51] ms
+06-Jun-2019 14:11:58.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 14:12:08.619 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Zoogle DB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+06-Jun-2019 14:12:08.619 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Zoogle DB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+06-Jun-2019 14:12:10.445 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 14:12:36.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [37,821] ms
+06-Jun-2019 14:12:36.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\docs]
+06-Jun-2019 14:12:37.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\docs] has finished in [320] ms
+06-Jun-2019 14:12:37.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\examples]
+06-Jun-2019 14:12:42.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\examples] has finished in [5,245] ms
+06-Jun-2019 14:12:42.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager]
+06-Jun-2019 14:12:42.541 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager] has finished in [250] ms
+06-Jun-2019 14:12:42.541 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\manager]
+06-Jun-2019 14:12:42.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\manager] has finished in [400] ms
+06-Jun-2019 14:12:42.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT]
+06-Jun-2019 14:12:43.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT] has finished in [246] ms
+06-Jun-2019 14:12:43.225 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 14:12:43.331 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 14:12:43.336 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 44712 ms
+06-Jun-2019 16:41:26.778 WARNING [http-nio-8078-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 16:41:27.693 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 16:41:27.734 WARNING [http-nio-8078-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:41:27.749 INFO [http-nio-8078-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 16:41:35.034 INFO [http-nio-8078-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 16:41:36.556 SEVERE [http-nio-8078-exec-10] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+06-Jun-2019 16:41:36.558 SEVERE [http-nio-8078-exec-10] org.apache.catalina.core.StandardContext.startInternal Context [/zoogle] startup failed due to previous errors
+06-Jun-2019 16:41:36.627 INFO [http-nio-8078-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [8,877] ms
+06-Jun-2019 16:42:56.687 WARNING [http-nio-8078-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:42:56.702 WARNING [http-nio-8078-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:42:56.718 WARNING [http-nio-8078-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:42:56.734 INFO [http-nio-8078-exec-11] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after stop() had already been called. The second call will be ignored.
+06-Jun-2019 16:42:57.234 INFO [http-nio-8078-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 16:42:57.258 WARNING [http-nio-8078-exec-12] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:42:57.267 INFO [http-nio-8078-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 16:43:01.719 INFO [http-nio-8078-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 16:43:02.474 SEVERE [http-nio-8078-exec-13] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+06-Jun-2019 16:43:02.474 SEVERE [http-nio-8078-exec-13] org.apache.catalina.core.StandardContext.startInternal Context [/zoogle] startup failed due to previous errors
+06-Jun-2019 16:43:02.506 INFO [http-nio-8078-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [5,240] ms
+06-Jun-2019 16:44:40.035 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 16:44:40.035 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 16:44:40.050 SEVERE [localhost-startStop-2] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@291ec9a6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\target\nssZoo-0.0.1] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 16:44:40.050 SEVERE [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 16:44:40.050 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [15] ms
+06-Jun-2019 16:45:07.059 WARNING [http-nio-8078-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:07.091 WARNING [http-nio-8078-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:13.673 WARNING [http-nio-8078-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:14.183 INFO [http-nio-8078-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 16:45:14.198 WARNING [http-nio-8078-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:14.205 WARNING [http-nio-8078-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:17.146 WARNING [http-nio-8078-exec-13] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:17.664 INFO [http-nio-8078-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+06-Jun-2019 16:45:17.679 WARNING [http-nio-8078-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:17.695 WARNING [http-nio-8078-exec-21] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:49.378 WARNING [http-nio-8078-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:49.405 WARNING [http-nio-8078-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:49.437 WARNING [http-nio-8078-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:45:49.453 INFO [http-nio-8078-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 16:45:53.567 INFO [http-nio-8078-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 16:46:08.156 INFO [http-nio-8078-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [18,703] ms
+06-Jun-2019 16:46:08.189 WARNING [http-nio-8078-exec-16] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:46:08.200 INFO [http-nio-8078-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 16:47:04.531 WARNING [http-nio-8078-exec-21] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 16:47:04.567 WARNING [http-nio-8078-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 18:10:00.396 WARNING [http-nio-8078-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 18:10:01.021 INFO [http-nio-8078-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 18:10:01.070 INFO [http-nio-8078-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 18:10:09.367 INFO [http-nio-8078-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 18:10:24.716 INFO [http-nio-8078-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [23,646] ms
+06-Jun-2019 18:10:24.769 WARNING [http-nio-8078-exec-31] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 18:10:24.799 INFO [http-nio-8078-exec-29] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 18:55:00.134 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+06-Jun-2019 18:55:00.219 SEVERE [localhost-startStop-3] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1506562a]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\target\ear_zs-0.0.1] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 18:55:00.219 SEVERE [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 18:55:00.219 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [100] ms
+06-Jun-2019 18:56:35.472 WARNING [http-nio-8078-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 18:56:36.713 INFO [http-nio-8078-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 18:56:36.743 INFO [http-nio-8078-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 18:56:44.408 INFO [http-nio-8078-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 18:56:57.279 INFO [http-nio-8078-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [20,536] ms
+06-Jun-2019 18:56:57.369 WARNING [http-nio-8078-exec-39] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 18:56:57.382 INFO [http-nio-8078-exec-42] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 19:28:49.395 WARNING [http-nio-8078-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 19:28:50.001 INFO [http-nio-8078-exec-47] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 19:28:50.038 INFO [http-nio-8078-exec-49] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 19:28:58.291 INFO [http-nio-8078-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 19:29:10.505 INFO [112] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [20,467] ms
+06-Jun-2019 19:29:10.548 WARNING [http-nio-8078-exec-50] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 19:29:10.556 INFO [http-nio-8078-exec-51] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 20:14:53.818 WARNING [http-nio-8078-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 20:14:54.670 INFO [http-nio-8078-exec-55] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 20:14:54.730 INFO [http-nio-8078-exec-58] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 20:15:03.044 INFO [http-nio-8078-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 20:15:19.724 INFO [http-nio-8078-exec-58] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [24,994] ms
+06-Jun-2019 20:15:19.742 WARNING [http-nio-8078-exec-61] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 20:15:19.753 INFO [http-nio-8078-exec-59] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 20:17:22.145 WARNING [http-nio-8078-exec-67] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 20:17:22.178 WARNING [http-nio-8078-exec-63] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 20:25:57.730 WARNING [http-nio-8078-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 20:25:58.249 INFO [http-nio-8078-exec-65] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 20:25:58.288 INFO [http-nio-8078-exec-67] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 20:26:05.572 INFO [http-nio-8078-exec-67] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 20:26:17.550 INFO [http-nio-8078-exec-67] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [19,262] ms
+06-Jun-2019 20:26:17.556 WARNING [http-nio-8078-exec-64] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 20:26:17.564 INFO [http-nio-8078-exec-71] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 21:03:47.158 WARNING [http-nio-8078-exec-74] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 21:03:47.837 INFO [http-nio-8078-exec-74] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 21:03:47.899 INFO [http-nio-8078-exec-80] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 21:03:56.436 INFO [http-nio-8078-exec-80] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 21:04:09.756 INFO [http-nio-8078-exec-80] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [21,856] ms
+06-Jun-2019 21:04:09.764 WARNING [http-nio-8078-exec-75] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:04:09.769 INFO [http-nio-8078-exec-73] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 21:36:57.607 WARNING [http-nio-8078-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 21:36:58.584 INFO [http-nio-8078-exec-91] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 21:36:58.631 INFO [http-nio-8078-exec-88] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 21:37:08.593 INFO [http-nio-8078-exec-88] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 21:37:26.002 INFO [http-nio-8078-exec-88] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [27,371] ms
+06-Jun-2019 21:37:26.017 WARNING [http-nio-8078-exec-89] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:37:26.017 INFO [http-nio-8078-exec-87] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 21:47:25.899 WARNING [http-nio-8078-exec-98] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 21:47:26.408 INFO [http-nio-8078-exec-98] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 21:47:26.480 INFO [http-nio-8078-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 21:47:33.358 INFO [http-nio-8078-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 21:47:50.664 INFO [http-nio-8078-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [24,185] ms
+06-Jun-2019 21:47:50.682 WARNING [http-nio-8078-exec-102] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:47:50.699 INFO [http-nio-8078-exec-93] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 21:52:10.701 WARNING [http-nio-8078-exec-109] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:52:10.763 WARNING [http-nio-8078-exec-112] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:52:10.799 WARNING [http-nio-8078-exec-105] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:52:10.962 WARNING [http-nio-8078-exec-106] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 21:52:11.584 INFO [http-nio-8078-exec-106] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 21:52:11.623 WARNING [http-nio-8078-exec-103] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:52:11.631 INFO [http-nio-8078-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 21:52:16.047 INFO [http-nio-8078-exec-104] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 21:52:31.863 INFO [http-nio-8078-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [20,232] ms
+06-Jun-2019 21:52:31.875 WARNING [http-nio-8078-exec-107] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 21:52:31.883 INFO [http-nio-8078-exec-112] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 22:33:49.978 WARNING [http-nio-8078-exec-119] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 22:33:51.273 INFO [http-nio-8078-exec-119] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 22:33:51.337 INFO [http-nio-8078-exec-118] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 22:33:58.447 INFO [http-nio-8078-exec-118] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 22:34:11.122 INFO [http-nio-8078-exec-118] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [19,785] ms
+06-Jun-2019 22:34:11.122 WARNING [http-nio-8078-exec-116] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 22:34:11.144 INFO [http-nio-8078-exec-117] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 22:48:17.029 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jun-2019 22:48:17.037 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 22:48:17.315 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 22:48:17.570 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jun-2019 22:48:22.365 WARNING [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 22:48:22.430 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 22:48:22.435 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 22:48:22.442 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 22:48:22.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:09:30.155 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+06-Jun-2019 23:09:30.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+06-Jun-2019 23:09:30.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+06-Jun-2019 23:09:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+06-Jun-2019 23:09:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jun-2019 23:09:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jun-2019 23:09:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jun-2019 23:09:30.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Amazon Corretto\jdk1.8.0_212\jre
+06-Jun-2019 23:09:30.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_212-b04
+06-Jun-2019 23:09:30.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-Jun-2019 23:09:30.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:09:30.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:09:30.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\logging.properties
+06-Jun-2019 23:09:30.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jun-2019 23:09:30.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Anet-HP
+06-Jun-2019 23:09:30.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jun-2019 23:09:30.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jun-2019 23:09:30.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Jun-2019 23:09:30.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:09:30.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:09:30.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\temp
+06-Jun-2019 23:09:30.280 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+06-Jun-2019 23:09:30.281 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-Jun-2019 23:09:30.281 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Jun-2019 23:09:30.308 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+06-Jun-2019 23:09:30.540 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 23:09:31.219 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2019 23:09:31.274 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:09:31.277 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2019 23:09:31.278 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1940 ms
+06-Jun-2019 23:09:31.486 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jun-2019 23:09:31.486 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+06-Jun-2019 23:09:31.506 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+06-Jun-2019 23:09:31.668 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7b832161]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\target\ear_zs-0.0.1] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 23:09:31.679 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 23:09:31.688 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [175] ms
+06-Jun-2019 23:09:31.688 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml]
+06-Jun-2019 23:09:31.708 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Spring4MVCHelloWorldRestServiceDemo]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@594eb1b0]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Hp\Downloads\Spring4MVCHelloWorldRestServiceDemo\target\Spring4MVCHelloWorldRestServiceDemo] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 23:09:31.710 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Spring4MVCHelloWorldRestServiceDemo]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 23:09:31.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml] has finished in [23] ms
+06-Jun-2019 23:09:31.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 23:09:41.342 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Zoogle DB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+06-Jun-2019 23:09:41.343 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Zoogle DB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+06-Jun-2019 23:09:42.000 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 23:09:57.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [25,422] ms
+06-Jun-2019 23:09:57.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\docs]
+06-Jun-2019 23:09:57.170 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\docs] has finished in [35] ms
+06-Jun-2019 23:09:57.170 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\examples]
+06-Jun-2019 23:09:57.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\examples] has finished in [596] ms
+06-Jun-2019 23:09:57.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager]
+06-Jun-2019 23:09:57.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager] has finished in [62] ms
+06-Jun-2019 23:09:57.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\manager]
+06-Jun-2019 23:09:57.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\manager] has finished in [43] ms
+06-Jun-2019 23:09:57.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT]
+06-Jun-2019 23:09:57.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT] has finished in [27] ms
+06-Jun-2019 23:09:57.909 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 23:09:57.945 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:09:57.950 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 26671 ms
+06-Jun-2019 23:10:01.212 WARNING [http-nio-8078-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 23:10:01.734 INFO [http-nio-8078-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 23:10:01.819 INFO [http-nio-8078-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 23:10:06.855 INFO [http-nio-8078-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 23:10:19.922 INFO [http-nio-8078-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [18,102] ms
+06-Jun-2019 23:10:20.012 WARNING [http-nio-8078-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:10:20.192 INFO [http-nio-8078-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 23:12:57.601 WARNING [http-nio-8078-exec-16] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:12:57.686 WARNING [http-nio-8078-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:12:57.770 WARNING [http-nio-8078-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:12:58.003 WARNING [http-nio-8078-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 23:12:58.519 INFO [http-nio-8078-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 23:12:58.542 WARNING [http-nio-8078-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:12:58.557 INFO [http-nio-8078-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 23:13:02.786 INFO [http-nio-8078-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 23:13:14.929 INFO [http-nio-8078-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [16,372] ms
+06-Jun-2019 23:13:14.929 WARNING [http-nio-8078-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:13:14.944 INFO [http-nio-8078-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 23:38:42.933 WARNING [http-nio-8078-exec-28] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 23:38:44.018 INFO [http-nio-8078-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 23:38:44.102 WARNING [http-nio-8078-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:39:36.253 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jun-2019 23:39:36.257 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 23:39:36.818 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:39:37.717 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jun-2019 23:39:37.879 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 23:39:37.889 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:39:37.899 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 23:39:37.905 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:41:23.850 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+06-Jun-2019 23:41:23.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+06-Jun-2019 23:41:23.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+06-Jun-2019 23:41:23.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+06-Jun-2019 23:41:23.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jun-2019 23:41:23.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jun-2019 23:41:23.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jun-2019 23:41:23.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Amazon Corretto\jdk1.8.0_212\jre
+06-Jun-2019 23:41:23.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_212-b04
+06-Jun-2019 23:41:23.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-Jun-2019 23:41:23.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:41:23.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:41:23.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\logging.properties
+06-Jun-2019 23:41:23.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jun-2019 23:41:23.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Anet-HP
+06-Jun-2019 23:41:23.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jun-2019 23:41:23.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jun-2019 23:41:23.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Jun-2019 23:41:23.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:41:23.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37
+06-Jun-2019 23:41:23.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\temp
+06-Jun-2019 23:41:23.984 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+06-Jun-2019 23:41:23.984 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-Jun-2019 23:41:23.984 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Jun-2019 23:41:24.012 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+06-Jun-2019 23:41:25.360 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 23:41:26.162 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2019 23:41:26.182 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:41:26.192 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2019 23:41:26.192 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3545 ms
+06-Jun-2019 23:41:26.283 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jun-2019 23:41:26.283 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+06-Jun-2019 23:41:26.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+06-Jun-2019 23:41:26.464 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@43755da7]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\target\ear_zs-0.0.1] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 23:41:26.477 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 23:41:26.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [165] ms
+06-Jun-2019 23:41:26.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml]
+06-Jun-2019 23:41:26.489 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Spring4MVCHelloWorldRestServiceDemo]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@27b88635]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4927)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5062)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Hp\Downloads\Spring4MVCHelloWorldRestServiceDemo\target\Spring4MVCHelloWorldRestServiceDemo] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+06-Jun-2019 23:41:26.522 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Spring4MVCHelloWorldRestServiceDemo]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jun-2019 23:41:26.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml] has finished in [58] ms
+06-Jun-2019 23:41:26.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\docs]
+06-Jun-2019 23:41:28.117 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\docs] has finished in [1,568] ms
+06-Jun-2019 23:41:28.118 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\examples]
+06-Jun-2019 23:41:29.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\examples] has finished in [1,647] ms
+06-Jun-2019 23:41:29.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager]
+06-Jun-2019 23:41:29.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager] has finished in [192] ms
+06-Jun-2019 23:41:29.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\manager]
+06-Jun-2019 23:41:30.260 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\manager] has finished in [301] ms
+06-Jun-2019 23:41:30.261 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT]
+06-Jun-2019 23:41:30.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT] has finished in [121] ms
+06-Jun-2019 23:41:30.404 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8078"]
+06-Jun-2019 23:41:30.566 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2019 23:41:30.570 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4376 ms
+06-Jun-2019 23:41:35.714 INFO [http-nio-8078-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 23:41:42.060 WARNING [http-nio-8078-exec-5] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Zoogle DB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+06-Jun-2019 23:41:42.060 WARNING [http-nio-8078-exec-5] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Zoogle DB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+06-Jun-2019 23:41:42.973 INFO [http-nio-8078-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 23:41:59.174 INFO [http-nio-8078-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [23,460] ms
+06-Jun-2019 23:41:59.206 INFO [http-nio-8078-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.
+06-Jun-2019 23:58:11.922 WARNING [http-nio-8078-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:58:11.981 WARNING [http-nio-8078-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:58:12.029 WARNING [http-nio-8078-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:58:12.523 WARNING [http-nio-8078-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [zoogle] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2019 23:58:13.072 INFO [http-nio-8078-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/zoogle]
+06-Jun-2019 23:58:13.112 WARNING [http-nio-8078-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:58:13.128 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml]
+06-Jun-2019 23:58:20.230 INFO [http-nio-8078-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2019 23:58:36.048 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\zoogle.xml] has finished in [22,919] ms
+06-Jun-2019 23:58:36.060 WARNING [http-nio-8078-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [nss-admin]
+06-Jun-2019 23:58:36.076 INFO [http-nio-8078-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/zoogle]] after start() had already been called. The second call will be ignored.

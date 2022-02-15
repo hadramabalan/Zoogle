@@ -1,0 +1,884 @@
+24-Dec-2018 04:34:46.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 04:34:46.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 04:34:46.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 04:34:46.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 04:34:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 04:34:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 04:34:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 04:34:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 04:34:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 04:34:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:34:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:34:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 04:34:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 04:34:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 04:34:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 04:34:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 04:34:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 04:34:46.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:34:46.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:34:46.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\temp
+24-Dec-2018 04:34:46.644 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 04:34:46.644 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 04:34:46.644 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 04:34:46.708 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 04:34:47.110 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Dec-2018 04:34:47.284 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:34:47.428 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:34:47.436 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:34:47.439 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2784 ms
+24-Dec-2018 04:34:47.528 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 04:34:47.528 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 04:34:47.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 04:34:50.281 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,174] milliseconds.
+24-Dec-2018 04:34:50.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs] has finished in [2,799] ms
+24-Dec-2018 04:34:50.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 04:34:51.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples] has finished in [790] ms
+24-Dec-2018 04:34:51.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 04:34:51.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager] has finished in [76] ms
+24-Dec-2018 04:34:51.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 04:34:51.296 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager] has finished in [89] ms
+24-Dec-2018 04:34:51.296 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 04:34:51.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT] has finished in [69] ms
+24-Dec-2018 04:34:51.372 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Dec-2018 04:34:51.415 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:34:51.420 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3979 ms
+24-Dec-2018 04:38:39.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 04:38:39.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 04:38:39.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 04:38:39.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 04:38:39.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 04:38:39.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 04:38:39.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 04:38:39.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 04:38:39.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 04:38:39.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:38:39.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:38:39.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 04:38:39.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 04:38:39.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 04:38:39.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 04:38:39.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 04:38:39.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 04:38:39.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:38:39.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:38:39.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\temp
+24-Dec-2018 04:38:39.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 04:38:39.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 04:38:39.416 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 04:38:39.423 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 04:38:39.700 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+24-Dec-2018 04:38:39.808 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:38:39.826 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:38:39.829 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 04:38:39.830 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1064 ms
+24-Dec-2018 04:38:39.880 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 04:38:39.880 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 04:38:39.905 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 04:38:40.571 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [158] milliseconds.
+24-Dec-2018 04:38:40.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs] has finished in [689] ms
+24-Dec-2018 04:38:40.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 04:38:41.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples] has finished in [650] ms
+24-Dec-2018 04:38:41.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 04:38:41.289 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager] has finished in [45] ms
+24-Dec-2018 04:38:41.289 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 04:38:41.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager] has finished in [48] ms
+24-Dec-2018 04:38:41.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 04:38:41.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT] has finished in [65] ms
+24-Dec-2018 04:38:41.414 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+24-Dec-2018 04:38:41.432 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1601 ms
+24-Dec-2018 04:51:51.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 04:51:51.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 04:51:51.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 04:51:51.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 04:51:51.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 04:51:51.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 04:51:51.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 04:51:51.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 04:51:51.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 04:51:51.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:51:51.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:51:51.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 04:51:51.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 04:51:51.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\temp
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 04:51:51.404 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 04:51:51.405 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 04:51:51.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 04:51:51.654 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:51:51.801 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:51:51.822 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:51:51.824 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 04:51:51.826 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 938 ms
+24-Dec-2018 04:51:51.900 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 04:51:51.900 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 04:51:51.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 04:51:52.585 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [173] milliseconds.
+24-Dec-2018 04:51:52.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs] has finished in [692] ms
+24-Dec-2018 04:51:52.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 04:51:53.320 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples] has finished in [711] ms
+24-Dec-2018 04:51:53.320 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 04:51:53.409 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager] has finished in [88] ms
+24-Dec-2018 04:51:53.409 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 04:51:53.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager] has finished in [86] ms
+24-Dec-2018 04:51:53.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 04:51:53.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT] has finished in [34] ms
+24-Dec-2018 04:51:53.534 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:51:53.564 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1737 ms
+24-Dec-2018 04:52:58.801 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Dec-2018 04:52:58.803 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:52:58.981 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:52:58.981 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Dec-2018 04:52:59.103 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:52:59.113 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:52:59.114 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:52:59.114 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:53:08.953 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+24-Dec-2018 04:53:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 04:53:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 04:53:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 04:53:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 04:53:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 04:53:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 04:53:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 04:53:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 04:53:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 04:53:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 04:53:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 04:53:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 04:53:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 04:53:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 04:53:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 04:53:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:09.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:09.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\temp
+24-Dec-2018 04:53:09.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 04:53:09.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 04:53:09.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 04:53:09.055 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 04:53:09.236 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:53:09.344 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:53:09.365 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:53:09.368 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 04:53:09.370 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 887 ms
+24-Dec-2018 04:53:09.423 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 04:53:09.423 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 04:53:09.443 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 04:53:10.014 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [177] milliseconds.
+24-Dec-2018 04:53:10.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs] has finished in [592] ms
+24-Dec-2018 04:53:10.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 04:53:10.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples] has finished in [472] ms
+24-Dec-2018 04:53:10.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 04:53:10.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager] has finished in [49] ms
+24-Dec-2018 04:53:10.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 04:53:10.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager] has finished in [51] ms
+24-Dec-2018 04:53:10.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 04:53:10.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT] has finished in [30] ms
+24-Dec-2018 04:53:10.647 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:53:10.664 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1293 ms
+24-Dec-2018 04:53:24.431 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Dec-2018 04:53:24.431 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:53:24.588 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:53:24.589 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Dec-2018 04:53:24.631 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:53:24.645 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:53:24.646 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:53:24.646 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:53:27.825 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+24-Dec-2018 04:53:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 04:53:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 04:53:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 04:53:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 04:53:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 04:53:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 04:53:27.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\temp
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 04:53:27.874 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 04:53:27.883 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 04:53:28.136 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:53:28.223 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:53:28.242 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:53:28.245 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 04:53:28.246 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 860 ms
+24-Dec-2018 04:53:28.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 04:53:28.293 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 04:53:28.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 04:53:28.927 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+24-Dec-2018 04:53:28.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs] has finished in [636] ms
+24-Dec-2018 04:53:28.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 04:53:29.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples] has finished in [474] ms
+24-Dec-2018 04:53:29.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 04:53:29.484 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager] has finished in [60] ms
+24-Dec-2018 04:53:29.484 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 04:53:29.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager] has finished in [59] ms
+24-Dec-2018 04:53:29.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 04:53:29.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT] has finished in [32] ms
+24-Dec-2018 04:53:29.637 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:53:29.657 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1410 ms
+24-Dec-2018 04:56:04.890 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Dec-2018 04:56:04.891 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:56:05.047 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:56:05.047 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Dec-2018 04:56:05.085 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:56:05.088 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+24-Dec-2018 04:56:05.088 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:56:05.088 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:56:25.246 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+24-Dec-2018 04:56:25.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 04:56:25.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 04:56:25.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 04:56:25.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 04:56:25.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 04:56:25.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 04:56:25.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 04:56:25.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 04:56:25.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 04:56:25.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:56:25.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:56:25.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 04:56:25.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 04:56:25.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 04:56:25.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 04:56:25.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 04:56:25.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 04:56:25.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:56:25.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:56:25.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\temp
+24-Dec-2018 04:56:25.316 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 04:56:25.316 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 04:56:25.316 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 04:56:25.324 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 04:56:25.553 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+24-Dec-2018 04:56:25.662 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:56:25.680 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:56:25.687 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 04:56:25.689 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 934 ms
+24-Dec-2018 04:56:25.743 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 04:56:25.744 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 04:56:25.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 04:56:26.286 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [159] milliseconds.
+24-Dec-2018 04:56:26.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs] has finished in [544] ms
+24-Dec-2018 04:56:26.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 04:56:26.784 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples] has finished in [475] ms
+24-Dec-2018 04:56:26.785 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 04:56:26.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager] has finished in [54] ms
+24-Dec-2018 04:56:26.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 04:56:26.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager] has finished in [40] ms
+24-Dec-2018 04:56:26.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 04:56:26.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT] has finished in [34] ms
+24-Dec-2018 04:56:26.919 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+24-Dec-2018 04:56:26.933 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1244 ms
+24-Dec-2018 04:58:26.740 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+24-Dec-2018 04:58:26.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 04:58:26.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 04:58:26.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 04:58:26.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 04:58:26.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 04:58:26.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 04:58:26.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 04:58:26.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 04:58:26.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 04:58:26.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:58:26.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:58:26.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 04:58:26.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 04:58:26.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 04:58:26.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 04:58:26.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 04:58:26.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 04:58:26.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:58:26.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37
+24-Dec-2018 04:58:26.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\temp
+24-Dec-2018 04:58:26.809 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 04:58:26.810 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 04:58:26.810 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 04:58:26.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 04:58:27.026 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8079"]
+24-Dec-2018 04:58:27.155 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 04:58:27.175 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 04:58:27.177 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 04:58:27.179 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 896 ms
+24-Dec-2018 04:58:27.234 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 04:58:27.234 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 04:58:27.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 04:58:27.803 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [176] milliseconds.
+24-Dec-2018 04:58:27.823 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\docs] has finished in [570] ms
+24-Dec-2018 04:58:27.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 04:58:28.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\examples] has finished in [488] ms
+24-Dec-2018 04:58:28.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 04:58:28.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\host-manager] has finished in [44] ms
+24-Dec-2018 04:58:28.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 04:58:28.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\manager] has finished in [39] ms
+24-Dec-2018 04:58:28.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 04:58:28.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR_ZS\EAR_ZS\src\main\resources\apache-tomcat-8.5.37\apache-tomcat-8.5.37\webapps\ROOT] has finished in [41] ms
+24-Dec-2018 04:58:28.441 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8079"]
+24-Dec-2018 04:58:28.456 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1277 ms
+24-Dec-2018 05:12:44.135 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+24-Dec-2018 05:12:44.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 05:12:44.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 05:12:44.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 05:12:44.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 05:12:44.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 05:12:44.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 05:12:44.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 05:12:44.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 05:12:44.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 05:12:44.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:12:44.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:12:44.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 05:12:44.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\temp
+24-Dec-2018 05:12:44.221 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 05:12:44.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 05:12:44.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 05:12:44.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 05:12:44.584 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8078"]
+24-Dec-2018 05:12:44.744 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 05:12:44.761 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 05:12:44.765 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 05:12:44.766 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1222 ms
+24-Dec-2018 05:12:45.148 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 05:12:45.148 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 05:12:45.160 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 05:12:45.866 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [169] milliseconds.
+24-Dec-2018 05:12:45.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\docs] has finished in [732] ms
+24-Dec-2018 05:12:45.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 05:12:46.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\examples] has finished in [476] ms
+24-Dec-2018 05:12:46.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 05:12:46.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager] has finished in [48] ms
+24-Dec-2018 05:12:46.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 05:12:46.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\manager] has finished in [57] ms
+24-Dec-2018 05:12:46.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 05:12:46.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT] has finished in [31] ms
+24-Dec-2018 05:12:46.515 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8078"]
+24-Dec-2018 05:12:46.533 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1766 ms
+24-Dec-2018 05:14:38.414 INFO [http-nio-8078-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:14:44.316 INFO [http-nio-8078-exec-2] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:14:44.570 INFO [http-nio-8078-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:14:46.834 SEVERE [http-nio-8078-exec-2] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:14:46.835 SEVERE [http-nio-8078-exec-2] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:14:46.884 INFO [http-nio-8078-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [8,469] ms
+24-Dec-2018 05:15:30.615 INFO [http-nio-8078-exec-6] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:15:31.117 INFO [http-nio-8078-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:15:31.180 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:15:35.858 INFO [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:15:35.936 INFO [http-nio-8078-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:15:37.315 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:15:37.317 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:15:37.353 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [6,173] ms
+24-Dec-2018 05:17:06.860 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\ear-eshop.war]
+24-Dec-2018 05:17:14.518 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:17:14.526 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\ear-eshop.war] has finished in [7,666] ms
+24-Dec-2018 05:19:35.159 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear-eshop]
+24-Dec-2018 05:24:30.812 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Dec-2018 05:24:30.813 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8078"]
+24-Dec-2018 05:24:30.959 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 05:24:30.959 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Dec-2018 05:24:31.080 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8078"]
+24-Dec-2018 05:24:31.083 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8078"]
+24-Dec-2018 05:24:31.085 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 05:24:31.085 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 05:25:27.795 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'server' to 'Apache-Coyote/1.1' did not find a matching property.
+24-Dec-2018 05:25:28.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+24-Dec-2018 05:25:28.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+24-Dec-2018 05:25:28.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+24-Dec-2018 05:25:28.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+24-Dec-2018 05:25:28.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+24-Dec-2018 05:25:28.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2018 05:25:28.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+24-Dec-2018 05:25:28.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+24-Dec-2018 05:25:28.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 05:25:28.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:25:28.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:25:28.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\logging.properties
+24-Dec-2018 05:25:28.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 05:25:28.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Hp-PC
+24-Dec-2018 05:25:28.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 05:25:28.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 05:25:28.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 05:25:28.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:25:28.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37
+24-Dec-2018 05:25:28.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\temp
+24-Dec-2018 05:25:28.007 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+24-Dec-2018 05:25:28.007 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Dec-2018 05:25:28.007 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Dec-2018 05:25:28.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Dec-2018 05:25:28.909 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8078"]
+24-Dec-2018 05:25:29.786 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Dec-2018 05:25:29.884 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 05:25:29.888 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:661)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Dec-2018 05:25:29.895 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4727 ms
+24-Dec-2018 05:25:30.283 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2018 05:25:30.283 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+24-Dec-2018 05:25:30.310 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:25:39.557 INFO [localhost-startStop-1] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:25:39.686 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:25:42.130 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:25:42.351 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
+24-Dec-2018 05:25:42.353 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:25:42.380 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [12,070] ms
+24-Dec-2018 05:25:42.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\docs]
+24-Dec-2018 05:25:42.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\docs] has finished in [74] ms
+24-Dec-2018 05:25:42.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\examples]
+24-Dec-2018 05:25:44.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\examples] has finished in [1,643] ms
+24-Dec-2018 05:25:44.100 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager]
+24-Dec-2018 05:25:44.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\host-manager] has finished in [75] ms
+24-Dec-2018 05:25:44.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\manager]
+24-Dec-2018 05:25:44.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\manager] has finished in [78] ms
+24-Dec-2018 05:25:44.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT]
+24-Dec-2018 05:25:44.307 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\webapps\ROOT] has finished in [53] ms
+24-Dec-2018 05:25:44.312 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8078"]
+24-Dec-2018 05:25:44.328 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 14434 ms
+24-Dec-2018 05:25:45.324 INFO [http-nio-8078-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml]
+24-Dec-2018 05:25:47.081 INFO [http-nio-8078-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:25:47.087 INFO [http-nio-8078-exec-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+24-Dec-2018 05:25:47.260 INFO [http-nio-8078-exec-2] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Dec 24 05:25:47 CET 2018]; root of context hierarchy
+24-Dec-2018 05:25:47.424 INFO [http-nio-8078-exec-2] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.websystique.springmvc.configuration.HelloWorldConfiguration]
+24-Dec-2018 05:25:48.566 INFO [http-nio-8078-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/{player}]}" onto public com.websystique.springmvc.domain.Message com.websystique.springmvc.controller.HelloWorldRestController.message(java.lang.String)
+24-Dec-2018 05:25:48.569 INFO [http-nio-8078-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String com.websystique.springmvc.controller.HelloWorldRestController.welcome()
+24-Dec-2018 05:25:49.038 INFO [http-nio-8078-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Dec 24 05:25:47 CET 2018]; root of context hierarchy
+24-Dec-2018 05:25:49.219 INFO [http-nio-8078-exec-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2132 ms
+24-Dec-2018 05:25:49.224 INFO [http-nio-8078-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+24-Dec-2018 05:25:49.229 INFO [http-nio-8078-exec-2] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Dec 24 05:25:49 CET 2018]; parent: Root WebApplicationContext
+24-Dec-2018 05:25:49.293 INFO [http-nio-8078-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 69 ms
+24-Dec-2018 05:25:49.296 INFO [http-nio-8078-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\Spring4MVCHelloWorldRestServiceDemo.xml] has finished in [3,972] ms
+24-Dec-2018 05:25:49.303 INFO [http-nio-8078-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Spring4MVCHelloWorldRestServiceDemo]] after start() had already been called. The second call will be ignored.
+24-Dec-2018 05:32:41.445 INFO [http-nio-8078-exec-5] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:32:41.947 INFO [http-nio-8078-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:32:41.978 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:32:46.030 INFO [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:32:46.097 INFO [http-nio-8078-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:32:47.459 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:32:47.460 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:32:47.491 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [5,514] ms
+24-Dec-2018 05:34:14.471 INFO [http-nio-8078-exec-5] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:34:14.973 INFO [http-nio-8078-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:34:15.035 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:34:23.374 INFO [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:34:23.414 INFO [http-nio-8078-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:34:24.630 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:34:24.632 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:34:24.656 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [9,620] ms
+24-Dec-2018 05:42:34.612 INFO [http-nio-8078-exec-5] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:42:35.115 INFO [http-nio-8078-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:42:35.166 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:42:46.087 INFO [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:42:46.137 INFO [http-nio-8078-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:42:47.446 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:42:47.447 SEVERE [http-nio-8078-exec-7] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:42:47.467 INFO [http-nio-8078-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [12,300] ms
+24-Dec-2018 05:45:52.587 INFO [http-nio-8078-exec-9] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:45:53.091 INFO [http-nio-8078-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:45:53.145 INFO [http-nio-8078-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:46:25.467 INFO [http-nio-8078-exec-1] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:46:25.516 INFO [http-nio-8078-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:46:26.883 SEVERE [http-nio-8078-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:46:26.884 SEVERE [http-nio-8078-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:46:26.898 INFO [http-nio-8078-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [33,754] ms
+24-Dec-2018 05:48:11.392 INFO [http-nio-8078-exec-8] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:48:11.897 INFO [http-nio-8078-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:48:11.952 INFO [http-nio-8078-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:48:22.626 INFO [http-nio-8078-exec-10] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:48:22.667 INFO [http-nio-8078-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:48:24.043 SEVERE [http-nio-8078-exec-10] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:48:24.045 SEVERE [http-nio-8078-exec-10] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:48:24.108 INFO [http-nio-8078-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [12,157] ms
+24-Dec-2018 05:50:53.712 INFO [http-nio-8078-exec-8] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:50:54.213 INFO [http-nio-8078-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:50:54.259 INFO [http-nio-8078-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:50:57.703 INFO [http-nio-8078-exec-9] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:50:57.751 INFO [http-nio-8078-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:50:59.071 SEVERE [http-nio-8078-exec-9] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:50:59.072 SEVERE [http-nio-8078-exec-9] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:50:59.091 INFO [http-nio-8078-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [4,833] ms
+24-Dec-2018 05:54:55.474 INFO [http-nio-8078-exec-8] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:54:55.977 INFO [http-nio-8078-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:54:56.045 INFO [http-nio-8078-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:55:00.128 INFO [http-nio-8078-exec-9] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:55:00.157 INFO [http-nio-8078-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Dec-2018 05:55:01.532 SEVERE [http-nio-8078-exec-9] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2018 05:55:01.533 SEVERE [http-nio-8078-exec-9] org.apache.catalina.core.StandardContext.startInternal Context [/ear_zs] startup failed due to previous errors
+24-Dec-2018 05:55:01.548 INFO [http-nio-8078-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [5,503] ms
+24-Dec-2018 05:56:02.092 INFO [http-nio-8078-exec-10] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]] after stop() had already been called. The second call will be ignored.
+24-Dec-2018 05:56:02.596 INFO [http-nio-8078-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ear_zs]
+24-Dec-2018 05:56:02.635 INFO [http-nio-8078-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+24-Dec-2018 05:56:08.670 INFO [http-nio-8078-exec-8] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/ear_zs/**" in context [/ear_zs] - see sections 12.1 and 12.2 of the Servlet specification
+24-Dec-2018 05:56:08.671 SEVERE [http-nio-8078-exec-8] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:501)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1650)
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1565)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:986)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:350)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:610)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Failed to register servlet with name 'dispatcher'. Check if there is another servlet registered under the same name.
+	at org.springframework.web.servlet.support.AbstractDispatcherServletInitializer.registerDispatcherServlet(AbstractDispatcherServletInitializer.java:90)
+	at org.springframework.web.servlet.support.AbstractDispatcherServletInitializer.onStartup(AbstractDispatcherServletInitializer.java:63)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5267)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 44 more
+
+24-Dec-2018 05:56:08.945 SEVERE [http-nio-8078-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ear_zs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:629)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:501)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1650)
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1565)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:986)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:350)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:610)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Dec-2018 05:56:09.231 INFO [http-nio-8078-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\Hp\Documents\NetBeansProjects\EAR planovac\oraveja1\EAR_ZS\apache-tomcat-8.5.37\conf\Catalina\localhost\ear_zs.xml] has finished in [6,596] ms

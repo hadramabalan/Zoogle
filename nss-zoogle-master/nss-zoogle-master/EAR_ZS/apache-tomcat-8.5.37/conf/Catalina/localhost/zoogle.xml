@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="C:\Users\Anet\Documents\SIT\4semestr\NSS\nss-zoogle\EAR_ZS\target\nssZoo-0.0.1" path="/zoogle">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="Zoogle DB" password="db18_oraveja1" type="javax.sql.DataSource" url="jdbc:postgresql://slon.felk.cvut.cz:5432/db18_oraveja1?currentSchema=zoogle" username="db18_oraveja1"/>
+</Context>
